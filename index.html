@@ -9,6 +9,13 @@
             font-family: "Droid Sans", Arial, sans-serif;
             font-weight: bold; 
             }
+        a {
+            position: fixed;
+            top: 50px;
+            left: 50x;
+            font-size: 18px;
+            font-family: "Droid Sans", Arial, sans-serif; 
+        }    
         #estadosVisitados {
             position: fixed;
             top: 1px;
@@ -18,18 +25,26 @@
         }
         #log{
             position: fixed;
-            top: 50px;
+            top: 70px;
             left: 50px;
             font-size: 16px;
             font-family: "Droid Sans", Arial, sans-serif;
+        }
+        #Dibujo {
+            position: fixed;
+            bottom: 5px;
+            right: 5px;
+            width: 350px;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <h2>Agente simple: Aspiradora</h2>
+    <a href="https://github.com/CesarDanielMM/Aspiradora_201904016">Enlace al Repositorio</a>
     <p id="log"></p>
     <p id="estadosVisitados"><b>Estados visitados:</b><br></p>
-
+    <img id="Dibujo" src="Dibujo.jpg">
     <script type="text/javascript" src="aspiradora_script.js"></script>
 </body>
 </html>
